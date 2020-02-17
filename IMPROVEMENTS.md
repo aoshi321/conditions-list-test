@@ -5,7 +5,8 @@ load more content as you scroll the browser window.
 
 Responsive images could be added to improve load time. currently I have the one image with dynamic dimension's which I think is fine for the purpose of this test.
 
-Due to the fact most of the images would take a long time to return a response, more logic was added to the 'useFallbackImg' hook to cater for this. The logic could be def be made cleaner.
+Due to the fact most of the images would take a long time to return a response, more logic was added to the 'useFallbackImg' hook to cater for this. The logic could be def be made cleaner. Although ideally you would want to use a third party image
+server to handle this.
 
 Abstracting out the view from the 'App.js' container would have easily
 allowed me to test the loading view functionality branch logic. Something I would have looked to have done with more time.
